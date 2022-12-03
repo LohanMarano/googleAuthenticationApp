@@ -1,0 +1,28 @@
+:root {
+    --primary: #f06f06;
+    --primary-darker: #572700;
+    --background: #232324;
+    --text: #FFF;
+    --caption: #8D8D99;
+    --green: #119200;
+    --background-light: rgba(255, 255, 255, 0.05);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text);
+  
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  button {
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+  }
